@@ -29,6 +29,12 @@ body {
   position: relative;
 }
 
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 /* Animated Background */
 .bg-blobs {
   position: fixed;
@@ -87,7 +93,7 @@ body {
   width: 100%;
   max-width: 800px;
   padding: 2rem;
-  margin: 2rem 0;
+  margin: 2rem auto;
 }
 
 /* Form Glassmorphism */
@@ -412,7 +418,7 @@ select option {
   }
   .app-container {
     padding: 1rem;
-    margin: 1rem 0;
+    margin: 1rem auto;
   }
   .glass-panel {
     padding: 1.5rem;
